@@ -1,0 +1,22 @@
+[2025-03-23 02:04:35] INFO  utilities.customlogger - Fetching todos from API
+[2025-03-23 02:04:35] INFO  utilities.customlogger - Sending GET request to URL: https://jsonplaceholder.typicode.com/todos
+[2025-03-23 02:04:38] INFO  utilities.customlogger - Successfully fetched and deserialized todos. Total tasks: 200
+[2025-03-23 02:04:39] INFO  utilities.customlogger - Filtering users to identify FanCode City users based on lat and long.
+[2025-03-23 02:04:39] INFO  utilities.customlogger - Sending GET request to URL: https://jsonplaceholder.typicode.com/users
+[2025-03-23 02:04:39] INFO  utilities.customlogger - Successfully fetched 10 user details.
+[2025-03-23 02:04:39] INFO  utilities.customlogger - Identified FanCode City Users with IDs: [1, 5, 10]
+[2025-03-23 02:04:39] INFO  utilities.customlogger - User ID: 1 - Completed: 11/20 (55.00000000000001%)
+[2025-03-23 02:04:39] INFO  utilities.customlogger - User ID: 5 - Completed: 12/20 (60.0%)
+[2025-03-23 02:04:39] INFO  utilities.customlogger - User ID: 10 - Completed: 12/20 (60.0%)
+[2025-03-23 02:04:39] INFO  utilities.customlogger - Validation passed. All users have completed more than 50% tasks.
+[2025-03-23 02:46:05] INFO  utilities.customlogger - Fetching todos from API
+[2025-03-23 02:46:05] INFO  utilities.customlogger - Sending GET request to URL: https://jsonplaceholder.typicode.com/todos
+[2025-03-23 02:46:08] INFO  utilities.customlogger - Successfully fetched and deserialized todos. Total tasks: 200
+[2025-03-23 02:46:08] INFO  utilities.customlogger - Filtering users to identify FanCode City users based on lat and long.
+[2025-03-23 02:46:08] INFO  utilities.customlogger - Sending GET request to URL: https://jsonplaceholder.typicode.com/users
+[2025-03-23 02:46:08] INFO  utilities.customlogger - Successfully fetched 10 user details.
+[2025-03-23 02:46:08] INFO  utilities.customlogger - Identified FanCode City Users with IDs: [1, 5, 10]
+[2025-03-23 02:46:08] INFO  utilities.customlogger - User ID: 1 - Completed: 11/20 (55.00000000000001%)
+[2025-03-23 02:46:08] INFO  utilities.customlogger - User ID: 5 - Completed: 12/20 (60.0%)
+[2025-03-23 02:46:08] INFO  utilities.customlogger - User ID: 10 - Completed: 12/20 (60.0%)
+[2025-03-23 02:46:08] INFO  utilities.customlogger - Validation passed. All users have completed more than 50% tasks.
