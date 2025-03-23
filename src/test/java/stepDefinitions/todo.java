@@ -3,6 +3,7 @@ package stepDefinitions;
 import java.util.List;
 import java.util.Map;
 
+import baseUtilities.ConfigReader;
 import baseUtilities.commonUtils;
 import io.cucumber.java.en.Given;
 import io.restassured.response.Response;
@@ -20,8 +21,8 @@ public class todo extends commonUtils{
     public void userHasTheTodoTasks() {
     	customlogger.info("Fetching todos from API");
     	 try {
-             todoResponse = apiutils.getApiData("https://jsonplaceholder.typicode.com/todos");
-             
+    		 String endPoint = ConfigReader.getProperty("todos_url");
+             todoResponse = apiutils.getApiData(baseUrl + endPoint);
              todoList = todoResponse.getBody().jsonPath().getList("", Todo.class);
              System.out.println("todoResponse : " + todoResponse.asString());
              customlogger.info("Successfully fetched and deserialized todos. Total tasks: " + todoList.size());

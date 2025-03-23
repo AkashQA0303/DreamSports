@@ -14,7 +14,7 @@ public class tasks extends commonUtils{
 	public void user_completed_task_percentage_should_be_greater_than(Integer percentage) {
 		System.out.println("fanCodeUserIds: " + fanCodeUserIds);
 		System.out.println("todoList size: " + todoList.size());
-	   for(Integer userid: fanCodeUserIds) {
+	    for(Integer userid: fanCodeUserIds) {
 		   List<Todo> userTasks = new ArrayList<>();
 		   for (Todo todo : todoList) {
 	            if (todo.getUserId().equals(userid)) {

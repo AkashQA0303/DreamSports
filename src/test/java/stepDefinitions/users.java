@@ -6,6 +6,7 @@ import java.util.stream.Collectors;
 
 import org.testng.Assert;
 
+import baseUtilities.ConfigReader;
 import baseUtilities.commonUtils;
 import io.cucumber.java.en.And;
 import io.restassured.response.Response;
@@ -25,7 +26,8 @@ public class users extends commonUtils {
     public void userBelongsToTheCity(String city) {
     	try {
     		customlogger.info("Filtering users to identify FanCode City users based on lat and long.");
-        	userResponse = apiutils.getApiData("https://jsonplaceholder.typicode.com/users");
+    		String endPoint = ConfigReader.getProperty("users_url");
+        	userResponse = apiutils.getApiData(baseUrl + endPoint);
         	if(userResponse.getStatusCode()!=200) {
         		 customlogger.error("API call failed. Status Code: " + userResponse.getStatusCode());
                  throw new AssertionError("Failed to fetch users. Status Code: " + userResponse.getStatusCode());

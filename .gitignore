@@ -1,1 +1,4 @@
 /target/
+target/cucumber-report/cucumber.html
+target/cucumber-report/cucumber.json
+test-output/

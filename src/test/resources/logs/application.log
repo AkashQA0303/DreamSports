@@ -20,3 +20,36 @@
 [2025-03-23 02:46:08] INFO  utilities.customlogger - User ID: 5 - Completed: 12/20 (60.0%)
 [2025-03-23 02:46:08] INFO  utilities.customlogger - User ID: 10 - Completed: 12/20 (60.0%)
 [2025-03-23 02:46:08] INFO  utilities.customlogger - Validation passed. All users have completed more than 50% tasks.
+[2025-03-23 23:12:46] INFO  utilities.customlogger - Fetching todos from API
+[2025-03-23 23:12:46] INFO  utilities.customlogger - Sending GET request to URL: https://jsonplaceholder.typicode.com/todos
+[2025-03-23 23:12:49] INFO  utilities.customlogger - Successfully fetched and deserialized todos. Total tasks: 200
+[2025-03-23 23:12:49] INFO  utilities.customlogger - Filtering users to identify FanCode City users based on lat and long.
+[2025-03-23 23:12:49] INFO  utilities.customlogger - Sending GET request to URL: https://jsonplaceholder.typicode.com/users
+[2025-03-23 23:12:50] INFO  utilities.customlogger - Successfully fetched 10 user details.
+[2025-03-23 23:12:50] INFO  utilities.customlogger - Identified FanCode City Users with IDs: [1, 5, 10]
+[2025-03-23 23:12:50] INFO  utilities.customlogger - User ID: 1 - Completed: 11/20 (55.00000000000001%)
+[2025-03-23 23:12:50] INFO  utilities.customlogger - User ID: 5 - Completed: 12/20 (60.0%)
+[2025-03-23 23:12:50] INFO  utilities.customlogger - User ID: 10 - Completed: 12/20 (60.0%)
+[2025-03-23 23:12:50] INFO  utilities.customlogger - Validation passed. All users have completed more than 50% tasks.
+[2025-03-23 23:14:55] INFO  utilities.customlogger - Fetching todos from API
+[2025-03-23 23:14:55] INFO  utilities.customlogger - Sending GET request to URL: https://jsonplaceholder.typicode.com/todos
+[2025-03-23 23:14:57] INFO  utilities.customlogger - Successfully fetched and deserialized todos. Total tasks: 200
+[2025-03-23 23:14:57] INFO  utilities.customlogger - Filtering users to identify FanCode City users based on lat and long.
+[2025-03-23 23:14:57] INFO  utilities.customlogger - Sending GET request to URL: https://jsonplaceholder.typicode.com/users
+[2025-03-23 23:14:58] INFO  utilities.customlogger - Successfully fetched 10 user details.
+[2025-03-23 23:14:58] INFO  utilities.customlogger - Identified FanCode City Users with IDs: [1, 5, 10]
+[2025-03-23 23:14:58] INFO  utilities.customlogger - User ID: 1 - Completed: 11/20 (55.00000000000001%)
+[2025-03-23 23:14:58] INFO  utilities.customlogger - User ID: 5 - Completed: 12/20 (60.0%)
+[2025-03-23 23:14:58] INFO  utilities.customlogger - User ID: 10 - Completed: 12/20 (60.0%)
+[2025-03-23 23:14:58] INFO  utilities.customlogger - Validation passed. All users have completed more than 50% tasks.
+[2025-03-23 23:18:23] INFO  utilities.customlogger - Fetching todos from API
+[2025-03-23 23:18:23] INFO  utilities.customlogger - Sending GET request to URL: https://jsonplaceholder.typicode.com/todos
+[2025-03-23 23:18:26] INFO  utilities.customlogger - Successfully fetched and deserialized todos. Total tasks: 200
+[2025-03-23 23:18:26] INFO  utilities.customlogger - Filtering users to identify FanCode City users based on lat and long.
+[2025-03-23 23:18:26] INFO  utilities.customlogger - Sending GET request to URL: https://jsonplaceholder.typicode.com/users
+[2025-03-23 23:18:27] INFO  utilities.customlogger - Successfully fetched 10 user details.
+[2025-03-23 23:18:27] INFO  utilities.customlogger - Identified FanCode City Users with IDs: [1, 5, 10]
+[2025-03-23 23:18:27] INFO  utilities.customlogger - User ID: 1 - Completed: 11/20 (55.00000000000001%)
+[2025-03-23 23:18:27] INFO  utilities.customlogger - User ID: 5 - Completed: 12/20 (60.0%)
+[2025-03-23 23:18:27] INFO  utilities.customlogger - User ID: 10 - Completed: 12/20 (60.0%)
+[2025-03-23 23:18:27] INFO  utilities.customlogger - Validation passed. All users have completed more than 50% tasks.
