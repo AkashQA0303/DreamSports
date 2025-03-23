@@ -9,7 +9,8 @@ import io.cucumber.testng.CucumberOptions;
 		plugin = {
                 "pretty",  // Prints detailed logs in the console
                 "json:target/cucumber-report/cucumber.json",  // Generates JSON report
-                "html:target/cucumber-report/cucumber.html" // Generates HTML report       
+                "html:target/cucumber-report/cucumber.html", // Generates HTML report
+                "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"
         },
         monochrome = true)
 
